@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+public class boj계단오르기 {
     static Integer[] dp;
     static int[] stair;
     static int ans;
