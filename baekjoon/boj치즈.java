@@ -1,3 +1,5 @@
+package baekjoon;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -57,7 +59,7 @@ public class boj치즈 {
         }
 
         while(cheeseCount != 0) { // 시간초과..... ( 4면을 검사하는 checking 메서드 구현 --> 시간 초과 --> 모든 인덱스를 접근하기 떄문에
-                                  // 치즈가 있는 위치만 저장하는 객체 생성 --> dot() ;
+                                  // 치즈가 있는 위치만 저장하는 객체 생성 --> baekjoon.dot() ;
             checked = new boolean[N][M];
             dfs(0, 0);
 
